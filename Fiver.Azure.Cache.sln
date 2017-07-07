@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiver.Azure.Cache", "Fiver.Azure.Cache\Fiver.Azure.Cache.csproj", "{7D333E2F-8EE9-42F4-909A-20F9EA188FD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiver.Azure.Cache", "Fiver.Azure.Cache\Fiver.Azure.Cache.csproj", "{7D333E2F-8EE9-42F4-909A-20F9EA188FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiver.Azure.Cache.Client", "Fiver.Azure.Cache.Client\Fiver.Azure.Cache.Client.csproj", "{1E89D094-C9A8-4FC1-9EE9-7159691D49CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D333E2F-8EE9-42F4-909A-20F9EA188FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D333E2F-8EE9-42F4-909A-20F9EA188FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D333E2F-8EE9-42F4-909A-20F9EA188FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E89D094-C9A8-4FC1-9EE9-7159691D49CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E89D094-C9A8-4FC1-9EE9-7159691D49CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E89D094-C9A8-4FC1-9EE9-7159691D49CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E89D094-C9A8-4FC1-9EE9-7159691D49CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
